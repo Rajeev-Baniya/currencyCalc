@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(65, 57, 57);
+}
+
+.container{
+    text-align: center;
+    margin: 80px auto;
+    border: 2px solid black;
+    width: 40%;
+    height: 300px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    background-color: blanchedalmond;
+    line-height: 50px;
+    
+
+    
+}
+.swap-rate-container{
+    margin: 25px auto;
+    font-weight: bolder;
+}
+.container input {
+    height: 20px;
+    width: 80px;
+    font-weight: bolder;
+    margin: 10px 3px;
+    
+}
+.container select{
+    height: 30px;
+    width: 80px;
+    font-weight: bolder;
+    margin: 10px 3px;
+    
+}
+.swap-rate-container .btn{
+    margin-bottom: 8px;
+    width: 75px;
+    height: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+       width: 90%;
+    }
+}
